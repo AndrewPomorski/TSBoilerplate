@@ -1,0 +1,17 @@
+{
+  "name": "nodeloger",
+  "version": "1.0.0",
+  "description": "Simple lightweight nodejs logging libarary",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc; npm run minify",
+    "test": "node test/test.js",
+    "run": "node dist/index.js",
+    "minify": "uglifyjs ./dist/prologger.js &> ./dist/prologger.min.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.9.4"
+  }
+}
