@@ -3,9 +3,9 @@ Boilerplate basic Typescript project structure.
 
 run 
 ```
-	npm install
+$ npm install
 ```
 
-## Requirements
-	- tslint
+## Requirements:	
+	-	tslint
 	-	tsc
