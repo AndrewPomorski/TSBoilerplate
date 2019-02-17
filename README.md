@@ -7,5 +7,5 @@ $ npm install
 ```
 
 ## Requirements:	
-	-	tslint
-	-	tsc
+- tslint
+- tsc
