@@ -7,7 +7,7 @@
     "build": "tsc; npm run minify",
     "test": "node test/test.js",
     "run": "node dist/index.js",
-    "minify": "uglifyjs ./dist/prologger.js &> ./dist/prologger.min.js"
+    "minify": "uglifyjs ./dist/index.js &> ./dist/index.min.js"
   },
   "author": "",
   "license": "ISC",
